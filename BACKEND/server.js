@@ -502,7 +502,7 @@ app.post('/api/ads/click', async (req, res) => {
     if (!user) {
       user = new User({ 
         suiwid,
-        balance: 0,
+        balance: 0,  
         totalEarned: 0
       });
     }
